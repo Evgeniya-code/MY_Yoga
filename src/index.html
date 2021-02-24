@@ -118,51 +118,61 @@
         <link rel="stylesheet" href="css/style.min.css" />
     </head>
     <body>
-        <div class="menu">
-            <div class="menu__block">
-                <div class="menu__close"></div>
+        <div class="modal">
+            <div class="modal__block">
+                <div class="modal__close">
+                    <img src="icons/close (1).svg" alt="close" />
+                </div>
                 <nav>
-                    <ul class="menu__list">
-                        <li class="menu__link"><a href="">ABOUT ME</a></li>
-                        <li class="menu__link"><a href="">MY YOGA</a></li>
-                        <li class="menu__link"><a href="">SCHEDULE</a></li>
-                        <li class="menu__link"><a href="">PRICING</a></li>
-                        <li class="menu__link"><a href="">REVIEWS</a></li>
-                        <li class="menu__link"><a href="">CONTACTS</a></li>
+                    <ul class="modal__list">
+                        <li class="modal__link"><a href="#">ABOUT ME</a></li>
+                        <li class="modal__link"><a href="#">MY YOGA</a></li>
+                        <li class="modal__link"><a href="#">SCHEDULE</a></li>
+                        <li class="modal__link"><a href="#">PRICING</a></li>
+                        <li class="modal__link"><a href="#">REVIEWS</a></li>
+                        <li class="modal__link"><a href="#">CONTACTS</a></li>
                     </ul>
                 </nav>
-                <div class="menu__social">
-                    <a href=""><img src="" alt="" /></a>
-                    <a href=""><img src="" alt="" /></a>
-                    <a href=""><img src="" alt="" /></a>
+                <div class="modal__social">
+                    <a href="#"
+                        ><img src="icons/instagram.svg" alt="instagram"
+                    /></a>
+                    <a href="#"
+                        ><img src="icons/facebook.svg" alt="facebook"
+                    /></a>
+                    <a href="#"
+                        ><img src="icons/whatsapp.svg" alt="whatsapp"
+                    /></a>
                 </div>
             </div>
-            <div class="menu__overlay"></div>
+            <div class="modal__overlay"></div>
         </div>
 
         <section class="promo">
             <div class="container">
-                <div class="header">
-                    <img src="icons/Logo.png" alt="logo" class="header__logo" />
-                    <ul class="header__list">
-                        <li class="header__list-item">
+                <div class="navbar">
+                    <img src="icons/Logo.png" alt="logo" class="navbar__logo" />
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
                             <a href="">ABOUT ME</a>
                         </li>
-                        <li class="header__list-item">
+                        <li class="navbar__list-item">
                             <a href="">LESSONS</a>
                         </li>
-                        <li class="header__list-item">
+                        <li class="navbar__list-item">
                             <a class="third" href="">PRICING</a>
                         </li>
-                        <li class="header__list-item">
+                        <li class="navbar__list-item">
                             <a href="">SCHEDULE</a>
                         </li>
-                        <li class="header__list-item">
+                        <li class="navbar__list-item">
                             <a class="last" href="">CONTACTS</a>
                         </li>
                     </ul>
-                    <div class="header__phone">+1 212-717-9642</div>
-                    <div class="header__humburger">
+                    <a href="tel:12127179642" class="navbar__phone"
+                        >+1 212-717-9642</a
+                    >
+                    <div class="navbar__humburger">
                         <span></span>
                         <span class="long"></span>
                         <span></span>
@@ -170,12 +180,14 @@
                 </div>
 
                 <div class="main">
-                    <h1 class="main__title">MY YOGA</h1>
-                    <h3 class="main__subtitle">
+                    <h1 class="main__header">MY YOGA</h1>
+                    <p class="main__descr">
                         One-on-one sessions and group yoga practice for all
                         levels
-                    </h3>
-                    <button class="button">FIND OUT MORE</button>
+                    </p>
+                    <div class="main__button">
+                        <a href="#" class="main__button-link">FIND OUT MORE</a>
+                    </div>
                 </div>
             </div>
         </section>

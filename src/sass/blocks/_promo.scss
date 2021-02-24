@@ -4,7 +4,7 @@
     margin: 0 auto;
     background: url('../img/bg.jpg') center (center / cover) no-repeat;
 
-    .header {
+    .navbar {
         padding-top: 30px;
         display: grid;
         grid-template-columns: 300px 700px 160px 90px;
@@ -72,27 +72,33 @@
         display: flex;
         flex-direction: column;
         align-items: space-between;
-        &__title {
+        &__header {
             font-weight: bold;
             font-size: 82px;
             color: #ffffff;
             margin-top: 350px;
         }
-        &__subtitle {
+        &__descr {
             font-size: 25px;
             font-weight: normal;
             color: #ffffff;
             width: 400px;
         }
-        button {
+        &__button {
             margin-top: 50px;
             width: 250px;
             height: 60px;
-            color: #fff;
             background-color: $second-color;
             border-radius: 3px;
             box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.3);
             cursor: pointer;
+            a {
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                text-align: center;
+                padding-top: 18px;
+            }
         }
     }
 }
