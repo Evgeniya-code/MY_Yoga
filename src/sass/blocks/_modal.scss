@@ -15,7 +15,7 @@
     }
     &__block {
         position: relative;
-        width: 500px;
+        width: 400px;
         padding-top: 50px;
         padding-left: 40px;
         height: 100%;
@@ -34,8 +34,8 @@
     }
     &__list {
         list-style-type: none;
-        padding-left: 125px;
-        padding-top: 200px;
+        padding-left: 100px;
+        padding-top: 300px;
         display: flex;
         flex-direction: column;
         align-items: space-between;
@@ -43,8 +43,8 @@
     &__link {
         position: relative;
         font-weight: bold;
-        font-size: 34px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 30px;
         margin-bottom: 40px;
         &:before {
             content: '';
@@ -84,7 +84,7 @@
         height: auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 130px;
+        margin-left: 90px;
         margin-top: 140px;
 
         a {
