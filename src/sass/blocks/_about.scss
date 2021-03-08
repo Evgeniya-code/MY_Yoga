@@ -18,6 +18,10 @@
             margin-top: -10px;
             margin-left: 560px;
         }
+        &:hover {
+            transform: scale(1.02);
+            transition: all 0.6s;
+        }
     }
     &__w {
         max-width: 1290px;
@@ -86,6 +90,10 @@
             padding-top: 120px;
             padding-left: 150px;
             margin: 0;
+            &:hover {
+                transform: scale(1.02);
+                transition: all 0.6s;
+            }
         }
         &-descr {
             display: grid;
