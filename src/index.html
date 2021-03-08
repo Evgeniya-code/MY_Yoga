@@ -114,7 +114,10 @@
             content="icons/favicon//ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
-
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
         <link rel="stylesheet" href="css/style.min.css" />
         <link rel="stylesheet" href="css/animate.css" />
     </head>
@@ -172,10 +175,11 @@
                     <a href="tel:12127179642" class="navbar__phone"
                         >+1 212-717-9642</a
                     >
-                    <div class="navbar__humburger">
-                        <span></span>
-                        <span class="long"></span>
-                        <span></span>
+                    <div class="navbar__btn-call">
+                        <a href="tel:12127179642">CALL</a>
+                    </div>
+                    <div class="navbar__btn">
+                        <span>MENU</span>
                     </div>
                 </div>
 
@@ -197,10 +201,71 @@
 
         <!-- <section class="about">
             <div class="container">
-                <img src="img/M2.jpg" alt="" />
+                <h2 class="about__header title__50">LET ME INTRODUCE MYSELF</h2>
+                <div class="about__w">
+                    <div class="about__w-quote">
+                        <span
+                            >“Yoga is the journey of the self, through the self,
+                            to the self.”  The Bhagavad Gita</span
+                        >
+                    </div>
+                    <div>
+                        <img
+                            src="icons/mandala.png"
+                            alt="mandala"
+                            class="about__w__mandala-left"
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src="icons/mandala.png"
+                            alt="mandala"
+                            class="about__w__mandala-top"
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src="icons/mandala.png"
+                            alt="mandala"
+                            class="about__w__mandala-right"
+                        />
+                    </div>
+                    <h4 class="about__w-subheader">MY NAME IS MARIA</h4>
+                    <div class="about__w-descr">
+                        I am a New York based yoga teacher and have been
+                        teaching since 2012. I began my journey with yoga in
+                        Boulder, Colorado and then moved to SF where I taught
+                        for 4 years before moving to New York. In my classes I
+                        will take you through mindful flows and workshop
+                        postures. I focuses heavily on foundation and alignment
+                        to safely prepare you for more challenging postures
+                        later on. I will encourage you to turn inwards, draw
+                        intentionality into your practice and recognize your
+                        strength both physically and mentally in each moment.
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/M1.jpg" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/M2.jpg" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/M3.jpg" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/M4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
             </div>
         </section> -->
-
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
